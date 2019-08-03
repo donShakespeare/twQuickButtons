@@ -11,9 +11,9 @@
 //   toolbar: "qb-h1, qb-h2, qb-h3, qb-h4, qb-code, qb-pre, qb-blockquote",
 //   toolbar: "qb-h1, qb-h2, qb-h3, qb-h4, qb-code, qb-pre, qb-blockquote",
 //   contextmenu: "qb-h1, qb-h2, qb-h3, qb-h4, qb-code, qb-pre, qb-blockquote",
-// }
+// });
 
-tinymce.PluginManager.add("twQuickButtons", function(editor, url) {
+tinymce.PluginManager.add("twQuickButtons", function(editor) {
   var twQuickButtonsCSS = '<style id="twQuickButtonsCSS">.mce-twQuickButtonsCSS .mce-txt{font-weight:bold;text-transform:uppercase;font-size:larger}</style>';
   var twQuickButtons = editor.getParam("twQuickButtons",{}).tags || "h1, h2, h3, h4, h5, h6, code:code, pre, blockquote";
   twQuickButtons = twQuickButtons.split(',');
