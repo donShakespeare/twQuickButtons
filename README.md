@@ -2,6 +2,8 @@
 Awesome easy way to add some delectable quick buttons to your TinyMCE Editor.
 Just load up the plugin and boom!
 
+DEMO https://embed.plnkr.co/2DUu1W6a6VLppVgb60D6/?show=tinymce,preview
+
 ```js
 tinymce.init({
   selector: "textarea",
