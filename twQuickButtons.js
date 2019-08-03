@@ -4,7 +4,7 @@
 //     tags: "h1, h2, h3, h4, h5, h6, code:code, pre, blockquote", //tag_name:icon_to_use
 //     sample_text: "TEXT",
 //     replaceNameWithIcon: true,
-//     loadCSS: 1, //loads a small inline CSS rule to make the buttons smaller
+//     loadCSS: 1, //loads a small inline CSS rule to make the buttons bolder
 //     tooltip: 'Insert ' //set to 0 to disable (will resolve to Insert <tagname>)
 //   },
   
