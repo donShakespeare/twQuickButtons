@@ -17,7 +17,7 @@ tinymce.init({
   
   toolbar: "qb-h1, qb-h2, qb-h3, qb-h4, qb-code, qb-pre, qb-blockquote",
   contextmenu: "qb-h1, qb-h2, qb-h3, qb-h4, qb-code, qb-pre, qb-blockquote",
-}
+});
 ```
 
 Be logical, calm and judgmentally compassionate ;)
